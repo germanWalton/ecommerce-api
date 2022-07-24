@@ -1,0 +1,21 @@
+Las variables var(utilizadas antes de la llegada de ES6) pueden ser modificadas y re-declaradas dentro de su ámbito; las variables let pueden ser modificadas, pero no re-declaradas; las variables const no pueden ser modificadas ni re-declaradas. Todas ellas se elevan a la parte superior de su ámbito.
+
+    var saludar = "hey, hola";
+    
+    function nuevaFuncion() {
+        var hola = "hola";
+    }
+
+
+
+   let saludar = "dice Hola";
+   let tiempos = 4;
+
+   if (tiempos > 3) {
+        let hola = "dice Hola tambien";
+        console.log(hola);// "dice Hola tambien"
+    }
+   console.log(hola) // hola is not defined
+
+ const saludar = "dice Hola";
+    saludar = "dice Hola tambien";// error: Assignment to constant variable. 

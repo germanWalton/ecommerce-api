@@ -1,0 +1,674 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "This is a sample ecommerce server. For this sample, you can use the api key `special-key` to test the authorization     filters.",
+    "version": "1.0.0",
+    "title": "Ecommerce",
+    "termsOfService": "http://swagger.io/terms/",
+    "contact": {
+      "email": "waltongerman@gmail.com"
+    },
+    "license": {
+      "name": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  },
+  "host": "localhost:8080",
+  "basePath": "/api",
+  "tags": [
+    {
+      "name": "product",
+      "description": "Products of my ecommerce",
+      "externalDocs": {
+        "description": "Find out more",
+        "url": "http://swagger.io"
+      }
+    },
+    {
+      "name": "cart",
+      "description": "Access to Ecommerce carts"
+    },
+    {
+      "name": "user",
+      "description": "Operations about user",
+      "externalDocs": {
+        "description": "Find out more about our store",
+        "url": "http://swagger.io"
+      }
+    }
+  ],
+  "schemes": [
+    "https",
+    "http"
+  ],
+  "paths": {
+    "/products": {
+      "post": {
+        "tags": [
+          "product"
+        ],
+        "summary": "Add a new product",
+        "description": "Add a new product to the ecommerce database",
+        "operationId": "addProduct",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "description": "The product object that needs to be added to the ecommerce",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/Product"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Product added"
+          },
+          "500": {
+            "description": "Server error"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "product"
+        ],
+        "summary": "Get all products",
+        "description": "",
+        "operationId": "getAllProducts",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "500": {
+            "description": "Internal server error",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Product"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/products/{productId}": {
+      "get": {
+        "tags": [
+          "product"
+        ],
+        "summary": "Find a product by id",
+        "description": "Returns a single product",
+        "operationId": "getProductById",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "productId",
+            "in": "path",
+            "description": "Id of the product to find",
+            "required": true,
+            "type": "string",
+            "items": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "items": {
+                "$ref": "#/definitions/Product"
+              }
+            }
+          },
+          "404": {
+            "description": "Product not found"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "product"
+        ],
+        "summary": "Updates a product in the store with body",
+        "description": "Update all or part of a product",
+        "operationId": "updateProduct",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "productId",
+            "in": "path",
+            "description": "Id of the product that need to be updated",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "body",
+            "in": "body",
+            "description": "Product body to update",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/Product"
+            }
+          }
+        ],
+        "responses": {
+          "404": {
+            "description": "Product not found"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "product"
+        ],
+        "summary": "Delete a product",
+        "description": "",
+        "operationId": "deleteProduct",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "productId",
+            "in": "path",
+            "description": "Id of the product that need to be deleted",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Operation succesfull"
+          },
+          "404": {
+            "description": "Product not found"
+          }
+        }
+      }
+    },
+    "/cart": {
+      "post": {
+        "tags": [
+          "cart"
+        ],
+        "summary": "Create a new cart",
+        "description": "Create a new cart into the ecommerce database",
+        "operationId": "createCart",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "description": "The product object that needs to be added to the ecommerce",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/Cart"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Operation succesfull"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "cart"
+        ],
+        "summary": "Get all carts",
+        "description": "",
+        "operationId": "getAllCarts",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "500": {
+            "description": "Internal server error",
+            "schema": {
+              "items": {
+                "$ref": "#/definitions/Cart"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/cart/{cartId}": {
+      "get": {
+        "tags": [
+          "cart"
+        ],
+        "summary": "Find a cart by id",
+        "description": "Returns a single cart",
+        "operationId": "getCartById",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "cartId",
+            "in": "path",
+            "description": "Id of the cart to find",
+            "required": true,
+            "type": "string",
+            "items": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation"
+          },
+          "404": {
+            "description": "Cart not found",
+            "schema": {
+              "items": {
+                "$ref": "#/definitions/Cart"
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "cart"
+        ],
+        "summary": "Delete a cart",
+        "description": "",
+        "operationId": "deleteCart",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "cartId",
+            "in": "path",
+            "description": "Id of the cart that need to be deleted",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Operation succesfull"
+          },
+          "404": {
+            "description": "Cart not found"
+          }
+        }
+      }
+    },
+    "/cart/{cartId}/products": {
+      "get": {
+        "tags": [
+          "cart"
+        ],
+        "summary": "Find the products of a cart by his id",
+        "description": "Returns the products of the cart",
+        "operationId": "getCartProductsById",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "cartId",
+            "in": "path",
+            "description": "Id of the cart to find",
+            "required": true,
+            "type": "string",
+            "items": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation"
+          },
+          "404": {
+            "description": "Cart not found",
+            "schema": {
+              "items": {
+                "$ref": "#/definitions/Product"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/cart/{cartId}/{productId}": {
+      "post": {
+        "tags": [
+          "cart"
+        ],
+        "summary": "Add a product in the cart with his id",
+        "description": "Add a product in the cart",
+        "operationId": "addToCart",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "cartId",
+            "in": "path",
+            "description": "Id of the cart that you want to add a product",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "productId",
+            "in": "path",
+            "description": "Id of the product that you want to add to the cart",
+            "type": "string",
+            "required": true
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Operation successfull"
+          },
+          "404": {
+            "description": "Cart or product not found"
+          }
+        }
+      }
+    },
+    "/cart/{cartId}/products/{prodCode}": {
+      "delete": {
+        "tags": [
+          "cart"
+        ],
+        "summary": "Delete a product in the cart",
+        "description": "",
+        "operationId": "deleteCartProduct",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "cartId",
+            "in": "path",
+            "description": "Id of the cart",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "prodCode",
+            "in": "path",
+            "description": "Id of the product you want to delete",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Operation succesfull"
+          },
+          "404": {
+            "description": "Product or cart not found"
+          }
+        }
+      }
+    },
+    "/user": {
+      "post": {
+        "tags": [
+          "user"
+        ],
+        "summary": "Add a new user",
+        "description": "Add a new user to the ecommerce database",
+        "operationId": "addUser",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "description": "The user that needs to be added to the ecommerce",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/User"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Operation successful"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "user"
+        ],
+        "summary": "Get all users",
+        "description": "",
+        "operationId": "getAllUsers",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Operation successful"
+          },
+          "500": {
+            "description": "Internal server error",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/User"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/user/{userId}": {
+      "get": {
+        "tags": [
+          "user"
+        ],
+        "summary": "Find a user by id",
+        "description": "Returns a single cart",
+        "operationId": "getUserById",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "description": "Id of the user to find",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation"
+          },
+          "500": {
+            "description": "Server error",
+            "schema": {
+              "items": {
+                "$ref": "#/definitions/User"
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "user"
+        ],
+        "summary": "Delete a user",
+        "description": "",
+        "operationId": "deleteUser",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "description": "Id of the user that needs to be deleted",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Operation succesfull"
+          },
+          "404": {
+            "description": "User not found"
+          }
+        }
+      }
+    }
+  },
+  "securityDefinitions": {
+    "petstore_auth": {
+      "type": "oauth2",
+      "authorizationUrl": "http://petstore.swagger.io/oauth/dialog",
+      "flow": "implicit",
+      "scopes": {
+        "write:pets": "modify pets in your account",
+        "read:pets": "read your pets"
+      }
+    },
+    "api_key": {
+      "type": "apiKey",
+      "name": "api_key",
+      "in": "header"
+    }
+  },
+  "definitions": {
+    "Product": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "price": {
+          "type": "number"
+        },
+        "thumbnail": {
+          "type": "string"
+        },
+        "code": {
+          "type": "string"
+        },
+        "stock": {
+          "type": "number",
+          "default": 0
+        },
+        "timestamp": {
+          "type": "string"
+        }
+      },
+      "xml": {
+        "name": "Product"
+      }
+    },
+    "Cart": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "products": {
+          "type": "array",
+          "xml": {
+            "name": "product",
+            "wrapped": true
+          },
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "timestamp": {
+          "type": "string"
+        },
+        "userId": {
+          "type": "string"
+        }
+      },
+      "xml": {
+        "name": "Cart"
+      }
+    },
+    "User": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "lastName": {
+          "type": "string"
+        },
+        "direction": {
+          "type": "string"
+        },
+        "age": {
+          "type": "number"
+        },
+        "phone": {
+          "type": "string"
+        },
+        "avatar": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        }
+      },
+      "xml": {
+        "name": "User"
+      }
+    }
+  }
+}
