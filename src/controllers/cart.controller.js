@@ -3,8 +3,8 @@ const logger = require("../log/index");
 const service = require('../services/cart.service')
 
 const createCart = async (req, res) => {
-  //  const userId = req.user._id
-  const { products,userId } = req.body;
+  const userId = req.session.passport.user
+  const { products } = req.body;
 
   try {
     const cart = await service.saveCart({ products, userId })

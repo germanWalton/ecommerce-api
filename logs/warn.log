@@ -3120,3 +3120,325 @@
 [2022-07-24T11:12:23.333] [WARN] warning - The route http://localhost:8080/favicon.ico doesn't exist
 [2022-07-24T11:14:24.016] [WARN] warning - Request received GET
 [2022-07-24T11:14:24.016] [WARN] warning - The route http://localhost:8080/favicon.ico doesn't exist
+[2022-07-24T13:01:19.459] [WARN] warning - Request received GET
+[2022-07-24T13:01:19.460] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T13:01:28.097] [WARN] warning - Request received GET
+[2022-07-24T13:01:28.098] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T13:24:48.618] [WARN] warning - Request received GET
+[2022-07-24T13:24:48.620] [WARN] warning - The route http://localhost:8081/www.fdofdof.com doesn't exist
+[2022-07-24T13:24:48.624] [WARN] warning - Request received GET
+[2022-07-24T13:24:48.625] [WARN] warning - The route http://localhost:8081/class=%22mx-auto doesn't exist
+[2022-07-24T13:24:49.550] [WARN] warning - Request received GET
+[2022-07-24T13:24:49.551] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T13:26:44.679] [WARN] warning - Request received GET
+[2022-07-24T13:26:44.681] [WARN] warning - The route http://localhost:8081/www.fdofdof.com doesn't exist
+[2022-07-24T13:26:44.684] [WARN] warning - Request received GET
+[2022-07-24T13:26:44.685] [WARN] warning - The route http://localhost:8081/class=%22mx-auto doesn't exist
+[2022-07-24T13:26:46.237] [WARN] warning - Request received GET
+[2022-07-24T13:26:46.237] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T13:27:21.276] [WARN] warning - Request received GET
+[2022-07-24T13:27:21.278] [WARN] warning - The route http://localhost:8081/class=%22mx-auto doesn't exist
+[2022-07-24T13:27:21.485] [WARN] warning - Request received GET
+[2022-07-24T13:27:21.488] [WARN] warning - The route http://localhost:8081/www.fdofdof.com doesn't exist
+[2022-07-24T13:27:22.476] [WARN] warning - Request received GET
+[2022-07-24T13:27:22.476] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T13:34:37.761] [WARN] warning - Request received GET
+[2022-07-24T13:34:37.763] [WARN] warning - The route http://localhost:8081/class=%22mx-auto doesn't exist
+[2022-07-24T13:34:37.987] [WARN] warning - Request received GET
+[2022-07-24T13:34:37.988] [WARN] warning - The route http://localhost:8081/www.fdofdof.com doesn't exist
+[2022-07-24T13:34:38.909] [WARN] warning - Request received GET
+[2022-07-24T13:34:38.909] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T13:35:12.825] [WARN] warning - Request received GET
+[2022-07-24T13:35:12.827] [WARN] warning - The route http://localhost:8081/class=%22mx-auto doesn't exist
+[2022-07-24T13:35:13.478] [WARN] warning - Request received GET
+[2022-07-24T13:35:13.479] [WARN] warning - The route http://localhost:8081/www.fdofdof.com doesn't exist
+[2022-07-24T13:35:14.324] [WARN] warning - Request received GET
+[2022-07-24T13:35:14.325] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T13:35:56.100] [WARN] warning - Request received GET
+[2022-07-24T13:35:56.102] [WARN] warning - The route http://localhost:8081/class=%22mx-auto doesn't exist
+[2022-07-24T13:35:56.315] [WARN] warning - Request received GET
+[2022-07-24T13:35:56.316] [WARN] warning - The route http://localhost:8081/www.fdofdof.com doesn't exist
+[2022-07-24T13:35:56.946] [WARN] warning - Request received GET
+[2022-07-24T13:35:56.947] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T13:36:15.110] [WARN] warning - Request received GET
+[2022-07-24T13:36:15.111] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T13:36:17.556] [WARN] warning - Request received GET
+[2022-07-24T13:36:17.557] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T13:36:23.043] [WARN] warning - Request received GET
+[2022-07-24T13:36:23.050] [WARN] warning - The route http://localhost:8081/class=%22mx-auto doesn't exist
+[2022-07-24T13:36:23.362] [WARN] warning - Request received GET
+[2022-07-24T13:36:23.363] [WARN] warning - The route http://localhost:8081/www.fdofdof.com doesn't exist
+[2022-07-24T13:36:24.496] [WARN] warning - Request received GET
+[2022-07-24T13:36:24.497] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T13:36:57.864] [WARN] warning - Request received GET
+[2022-07-24T13:36:57.866] [WARN] warning - The route http://localhost:8081/class=%22mx-auto doesn't exist
+[2022-07-24T13:36:58.111] [WARN] warning - Request received GET
+[2022-07-24T13:36:58.112] [WARN] warning - The route http://localhost:8081/www.fdofdof.com doesn't exist
+[2022-07-24T13:36:58.971] [WARN] warning - Request received GET
+[2022-07-24T13:36:58.978] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T13:50:33.114] [WARN] warning - Request received GET
+[2022-07-24T13:50:33.115] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:01:07.586] [WARN] warning - Request received GET
+[2022-07-24T14:01:07.587] [WARN] warning - The route http://localhost:8081/class=%22mx-auto doesn't exist
+[2022-07-24T14:01:07.693] [WARN] warning - Request received GET
+[2022-07-24T14:01:07.693] [WARN] warning - The route http://localhost:8081/www.fdofdof.com doesn't exist
+[2022-07-24T14:01:08.584] [WARN] warning - Request received GET
+[2022-07-24T14:01:08.585] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:02:27.247] [WARN] warning - Request received GET
+[2022-07-24T14:02:27.248] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:03:05.714] [WARN] warning - Request received GET
+[2022-07-24T14:03:05.715] [WARN] warning - The route http://localhost:8081/api/carts doesn't exist
+[2022-07-24T14:03:06.076] [WARN] warning - Request received GET
+[2022-07-24T14:03:06.076] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:03:11.001] [WARN] warning - Request received GET
+[2022-07-24T14:03:11.002] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:03:19.535] [WARN] warning - Request received GET
+[2022-07-24T14:03:19.535] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:04:19.249] [WARN] warning - Request received GET
+[2022-07-24T14:04:19.250] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:24:41.980] [WARN] warning - Request received GET
+[2022-07-24T14:24:41.981] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:24:49.745] [WARN] warning - Request received GET
+[2022-07-24T14:24:49.746] [WARN] warning - The route http://localhost:8081/www.fdofdof.com doesn't exist
+[2022-07-24T14:24:49.750] [WARN] warning - Request received GET
+[2022-07-24T14:24:49.750] [WARN] warning - The route http://localhost:8081/class=%22mx-auto doesn't exist
+[2022-07-24T14:24:50.636] [WARN] warning - Request received GET
+[2022-07-24T14:24:50.637] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:24:53.293] [WARN] warning - Request received GET
+[2022-07-24T14:24:53.294] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:24:57.636] [WARN] warning - Request received GET
+[2022-07-24T14:24:57.637] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:25:04.464] [WARN] warning - Request received GET
+[2022-07-24T14:25:04.465] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:25:38.809] [WARN] warning - Request received GET
+[2022-07-24T14:25:38.810] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:27:17.611] [WARN] warning - Request received GET
+[2022-07-24T14:27:17.611] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:29:30.795] [WARN] warning - Request received GET
+[2022-07-24T14:29:30.796] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:29:31.920] [WARN] warning - Request received GET
+[2022-07-24T14:29:31.921] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:29:38.531] [WARN] warning - Request received GET
+[2022-07-24T14:29:38.532] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:29:44.173] [WARN] warning - Request received GET
+[2022-07-24T14:29:44.174] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:29:52.010] [WARN] warning - Request received GET
+[2022-07-24T14:29:52.010] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:29:59.436] [WARN] warning - Request received GET
+[2022-07-24T14:29:59.436] [WARN] warning - The route http://localhost:8081/class=%22mx-auto doesn't exist
+[2022-07-24T14:29:59.681] [WARN] warning - Request received GET
+[2022-07-24T14:29:59.682] [WARN] warning - The route http://localhost:8081/www.fdofdof.com doesn't exist
+[2022-07-24T14:30:01.241] [WARN] warning - Request received GET
+[2022-07-24T14:30:01.241] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:30:02.881] [WARN] warning - Request received GET
+[2022-07-24T14:30:02.882] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:31:17.097] [WARN] warning - Request received GET
+[2022-07-24T14:31:17.098] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:31:23.846] [WARN] warning - Request received GET
+[2022-07-24T14:31:23.847] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:31:30.175] [WARN] warning - Request received GET
+[2022-07-24T14:31:30.176] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:31:36.461] [WARN] warning - Request received GET
+[2022-07-24T14:31:36.462] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:31:37.686] [WARN] warning - Request received GET
+[2022-07-24T14:31:37.687] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:46:26.150] [WARN] warning - Request received GET
+[2022-07-24T14:46:26.152] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:46:36.477] [WARN] warning - Request received GET
+[2022-07-24T14:46:36.478] [WARN] warning - The route http://localhost:8081/class=%22mx-auto doesn't exist
+[2022-07-24T14:46:37.509] [WARN] warning - Request received GET
+[2022-07-24T14:46:37.509] [WARN] warning - The route http://localhost:8081/www.fdofdof.com doesn't exist
+[2022-07-24T14:46:38.019] [WARN] warning - Request received GET
+[2022-07-24T14:46:38.022] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:46:51.891] [WARN] warning - Request received GET
+[2022-07-24T14:46:51.892] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:46:57.358] [WARN] warning - Request received GET
+[2022-07-24T14:46:57.359] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:47:22.777] [WARN] warning - Request received GET
+[2022-07-24T14:47:22.779] [WARN] warning - The route http://localhost:8081/class=%22mx-auto doesn't exist
+[2022-07-24T14:47:23.528] [WARN] warning - Request received GET
+[2022-07-24T14:47:23.529] [WARN] warning - The route http://localhost:8081/www.fdofdof.com doesn't exist
+[2022-07-24T14:47:24.019] [WARN] warning - Request received GET
+[2022-07-24T14:47:24.020] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:47:28.114] [WARN] warning - Request received GET
+[2022-07-24T14:47:28.115] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:47:35.340] [WARN] warning - Request received GET
+[2022-07-24T14:47:35.341] [WARN] warning - The route http://localhost:8081/user/current doesn't exist
+[2022-07-24T14:47:35.850] [WARN] warning - Request received GET
+[2022-07-24T14:47:35.851] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:47:40.505] [WARN] warning - Request received GET
+[2022-07-24T14:47:40.506] [WARN] warning - The route http://localhost:8081/users/current doesn't exist
+[2022-07-24T14:47:41.005] [WARN] warning - Request received GET
+[2022-07-24T14:47:41.005] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:47:49.662] [WARN] warning - Request received GET
+[2022-07-24T14:47:49.663] [WARN] warning - The route http://localhost:8081/api/users/current doesn't exist
+[2022-07-24T14:47:50.154] [WARN] warning - Request received GET
+[2022-07-24T14:47:50.155] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:47:54.337] [WARN] warning - Request received GET
+[2022-07-24T14:47:54.337] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:48:00.516] [WARN] warning - Request received GET
+[2022-07-24T14:48:00.517] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:48:02.630] [WARN] warning - Request received GET
+[2022-07-24T14:48:02.631] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:48:03.884] [WARN] warning - Request received GET
+[2022-07-24T14:48:03.885] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:48:05.841] [WARN] warning - Request received GET
+[2022-07-24T14:48:05.841] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:48:08.732] [WARN] warning - Request received GET
+[2022-07-24T14:48:08.733] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:48:11.451] [WARN] warning - Request received GET
+[2022-07-24T14:48:11.452] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:48:23.628] [WARN] warning - Request received GET
+[2022-07-24T14:48:23.628] [WARN] warning - The route http://localhost:8081/class=%22mx-auto doesn't exist
+[2022-07-24T14:48:24.550] [WARN] warning - Request received GET
+[2022-07-24T14:48:24.550] [WARN] warning - The route http://localhost:8081/www.fdofdof.com doesn't exist
+[2022-07-24T14:48:25.040] [WARN] warning - Request received GET
+[2022-07-24T14:48:25.041] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:48:30.598] [WARN] warning - Request received GET
+[2022-07-24T14:48:30.599] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:50:33.974] [WARN] warning - Request received GET
+[2022-07-24T14:50:33.975] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:50:36.119] [WARN] warning - Request received GET
+[2022-07-24T14:50:36.120] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:50:40.003] [WARN] warning - Request received GET
+[2022-07-24T14:50:40.003] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:50:42.279] [WARN] warning - Request received GET
+[2022-07-24T14:50:42.280] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:50:59.006] [WARN] warning - Request received GET
+[2022-07-24T14:50:59.007] [WARN] warning - The route http://localhost:8081/www.fdofdof.com doesn't exist
+[2022-07-24T14:50:59.119] [WARN] warning - Request received GET
+[2022-07-24T14:50:59.119] [WARN] warning - The route http://localhost:8081/class=%22mx-auto doesn't exist
+[2022-07-24T14:51:00.298] [WARN] warning - Request received GET
+[2022-07-24T14:51:00.298] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:51:10.171] [WARN] warning - Request received GET
+[2022-07-24T14:51:10.171] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:51:14.602] [WARN] warning - Request received GET
+[2022-07-24T14:51:14.603] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:52:18.527] [WARN] warning - Request received GET
+[2022-07-24T14:52:18.528] [WARN] warning - The route http://localhost:8081/class=%22mx-auto doesn't exist
+[2022-07-24T14:52:19.821] [WARN] warning - Request received GET
+[2022-07-24T14:52:19.821] [WARN] warning - The route http://localhost:8081/www.fdofdof.com doesn't exist
+[2022-07-24T14:52:21.433] [WARN] warning - Request received GET
+[2022-07-24T14:52:21.434] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:52:23.725] [WARN] warning - Request received GET
+[2022-07-24T14:52:23.725] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:52:26.390] [WARN] warning - Request received GET
+[2022-07-24T14:52:26.390] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:52:48.026] [WARN] warning - Request received GET
+[2022-07-24T14:52:48.028] [WARN] warning - The route http://localhost:8081/class=%22mx-auto doesn't exist
+[2022-07-24T14:52:48.373] [WARN] warning - Request received GET
+[2022-07-24T14:52:48.374] [WARN] warning - The route http://localhost:8081/www.fdofdof.com doesn't exist
+[2022-07-24T14:52:49.471] [WARN] warning - Request received GET
+[2022-07-24T14:52:49.472] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:52:55.136] [WARN] warning - Request received GET
+[2022-07-24T14:52:55.136] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:53:47.171] [WARN] warning - Request received GET
+[2022-07-24T14:53:47.172] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:53:48.544] [WARN] warning - Request received GET
+[2022-07-24T14:53:48.544] [WARN] warning - The route http://localhost:8081/class=%22mx-auto doesn't exist
+[2022-07-24T14:53:48.845] [WARN] warning - Request received GET
+[2022-07-24T14:53:48.846] [WARN] warning - The route http://localhost:8081/www.fdofdof.com doesn't exist
+[2022-07-24T14:53:49.920] [WARN] warning - Request received GET
+[2022-07-24T14:53:49.921] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:53:52.624] [WARN] warning - Request received GET
+[2022-07-24T14:53:52.625] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:54:32.087] [WARN] warning - Request received GET
+[2022-07-24T14:54:32.089] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:54:34.846] [WARN] warning - Request received GET
+[2022-07-24T14:54:34.847] [WARN] warning - The route http://localhost:8081/class=%22mx-auto doesn't exist
+[2022-07-24T14:54:35.691] [WARN] warning - Request received GET
+[2022-07-24T14:54:35.691] [WARN] warning - The route http://localhost:8081/www.fdofdof.com doesn't exist
+[2022-07-24T14:54:36.719] [WARN] warning - Request received GET
+[2022-07-24T14:54:36.720] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:54:38.339] [WARN] warning - Request received GET
+[2022-07-24T14:54:38.339] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:55:09.983] [WARN] warning - Request received GET
+[2022-07-24T14:55:09.985] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:55:12.449] [WARN] warning - Request received GET
+[2022-07-24T14:55:12.449] [WARN] warning - The route http://localhost:8081/class=%22mx-auto doesn't exist
+[2022-07-24T14:55:12.485] [WARN] warning - Request received GET
+[2022-07-24T14:55:12.485] [WARN] warning - The route http://localhost:8081/www.fdofdof.com doesn't exist
+[2022-07-24T14:55:13.698] [WARN] warning - Request received GET
+[2022-07-24T14:55:13.701] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:55:16.512] [WARN] warning - Request received GET
+[2022-07-24T14:55:16.513] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:55:43.932] [WARN] warning - Request received GET
+[2022-07-24T14:55:43.933] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:55:45.410] [WARN] warning - Request received GET
+[2022-07-24T14:55:45.411] [WARN] warning - The route http://localhost:8081/class=%22mx-auto doesn't exist
+[2022-07-24T14:55:45.657] [WARN] warning - Request received GET
+[2022-07-24T14:55:45.658] [WARN] warning - The route http://localhost:8081/www.fdofdof.com doesn't exist
+[2022-07-24T14:55:46.706] [WARN] warning - Request received GET
+[2022-07-24T14:55:46.706] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:55:48.791] [WARN] warning - Request received GET
+[2022-07-24T14:55:48.791] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:55:58.388] [WARN] warning - Request received GET
+[2022-07-24T14:55:58.388] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:56:00.643] [WARN] warning - Request received GET
+[2022-07-24T14:56:00.643] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:56:06.129] [WARN] warning - Request received GET
+[2022-07-24T14:56:06.129] [WARN] warning - The route http://localhost:8081/class=%22mx-auto doesn't exist
+[2022-07-24T14:56:06.268] [WARN] warning - Request received GET
+[2022-07-24T14:56:06.269] [WARN] warning - The route http://localhost:8081/www.fdofdof.com doesn't exist
+[2022-07-24T14:56:07.292] [WARN] warning - Request received GET
+[2022-07-24T14:56:07.292] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:56:08.208] [WARN] warning - Request received GET
+[2022-07-24T14:56:08.209] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:56:11.149] [WARN] warning - Request received GET
+[2022-07-24T14:56:11.151] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:57:31.205] [WARN] warning - Request received GET
+[2022-07-24T14:57:31.206] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:57:51.276] [WARN] warning - Request received GET
+[2022-07-24T14:57:51.278] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:57:53.960] [WARN] warning - Request received GET
+[2022-07-24T14:57:53.961] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T14:57:58.063] [WARN] warning - Request received GET
+[2022-07-24T14:57:58.064] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T15:02:28.528] [WARN] warning - Request received GET
+[2022-07-24T15:02:28.530] [WARN] warning - The route http://localhost:8081/class=%22mx-auto doesn't exist
+[2022-07-24T15:02:28.611] [WARN] warning - Request received GET
+[2022-07-24T15:02:28.612] [WARN] warning - The route http://localhost:8081/www.fdofdof.com doesn't exist
+[2022-07-24T15:02:30.292] [WARN] warning - Request received GET
+[2022-07-24T15:02:30.293] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T15:02:37.059] [WARN] warning - Request received GET
+[2022-07-24T15:02:37.060] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T15:07:45.925] [WARN] warning - Request received GET
+[2022-07-24T15:07:45.925] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T15:31:01.764] [WARN] warning - Request received GET
+[2022-07-24T15:31:01.765] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T15:33:56.859] [WARN] warning - Request received GET
+[2022-07-24T15:33:56.860] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T15:34:47.909] [WARN] warning - Request received GET
+[2022-07-24T15:34:47.910] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T15:35:52.931] [WARN] warning - Request received GET
+[2022-07-24T15:35:52.932] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T15:35:59.627] [WARN] warning - Request received GET
+[2022-07-24T15:35:59.628] [WARN] warning - The route http://localhost:8081/www.fdofdof.com doesn't exist
+[2022-07-24T15:35:59.708] [WARN] warning - Request received GET
+[2022-07-24T15:35:59.709] [WARN] warning - The route http://localhost:8081/class=%22mx-auto doesn't exist
+[2022-07-24T15:36:00.491] [WARN] warning - Request received GET
+[2022-07-24T15:36:00.492] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T15:36:07.934] [WARN] warning - Request received GET
+[2022-07-24T15:36:07.934] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T15:36:12.765] [WARN] warning - Request received GET
+[2022-07-24T15:36:12.765] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T15:37:11.708] [WARN] warning - Request received GET
+[2022-07-24T15:37:11.709] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T15:37:33.665] [WARN] warning - Request received GET
+[2022-07-24T15:37:33.666] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T15:37:41.807] [WARN] warning - Request received GET
+[2022-07-24T15:37:41.808] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T15:39:57.800] [WARN] warning - Request received GET
+[2022-07-24T15:39:57.801] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T15:40:47.747] [WARN] warning - Request received GET
+[2022-07-24T15:40:47.748] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T16:33:37.297] [WARN] warning - Request received GET
+[2022-07-24T16:33:37.298] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T16:33:43.229] [WARN] warning - Request received GET
+[2022-07-24T16:33:43.230] [WARN] warning - The route http://localhost:8081/class=%22mx-auto doesn't exist
+[2022-07-24T16:33:43.414] [WARN] warning - Request received GET
+[2022-07-24T16:33:43.414] [WARN] warning - The route http://localhost:8081/www.fdofdof.com doesn't exist
+[2022-07-24T16:33:44.720] [WARN] warning - Request received GET
+[2022-07-24T16:33:44.722] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist
+[2022-07-24T16:33:50.770] [WARN] warning - Request received GET
+[2022-07-24T16:33:50.771] [WARN] warning - The route http://localhost:8081/favicon.ico doesn't exist

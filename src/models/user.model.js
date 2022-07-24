@@ -13,16 +13,14 @@ class User extends BaseModel{
       age: Number,
       phone: String,
       avatar:String,
-      password: String
+      password: String,
+      isAdmin:{ type: Boolean, default: false}
     });
 
     super('users',schema)
   }
 
-  //async getAll() {
-   // const data = await this.model.find({}).lean()
-    //return data
-  //}
+
 
   async create(obj) {
     obj.password = await bcrypt.hash(obj.password, 10);
@@ -34,9 +32,6 @@ class User extends BaseModel{
     return await this.model.exists({ email });
   }
 
-  //async deleteById(id) {
- //   return await this.model.deleteOne({_id: id })
-//}
 
   async getByEmail(email) {
     const user = await this.model.findOne({ email });
@@ -53,11 +48,7 @@ class User extends BaseModel{
     }
   }
 
- // async getById(id) {
-   // return await this.model.findById(id)
-   
-  //}
-
+ 
   async isPasswordValid(email,password) {
     const user = await this.model.findOne({ email });
     
@@ -65,11 +56,7 @@ class User extends BaseModel{
 
   }
   
-  //async update(id, obj) {
-    //const product = await this.model.updateOne({ _id: id }, { $set: obj })
-    //return product
-  //}
-  
+
 }
 
 module.exports = new User();

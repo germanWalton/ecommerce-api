@@ -12,65 +12,13 @@ class Order extends BaseModel {
         default: moment().format("DD/MM/YYYY HH:mm:ss"),
         send: Boolean,
       },
+      items: { type: Array, default: [] },
+      email:String
     });
 
-   // this.model = mongoose.model("order", schema);
     super('order',schema)
   }
-/*
-  async getAll() {
-    const data = await this.model.find({}).lean();
 
-    return data.map((order) => ({
-      id: order._id.toString(),
-      userId: order.userId,
-      total: order.total,
-      created: order.created,
-      send: order.send ? "Yes" : "No",
-    }));
-  }
- /*
-  async save(obj) {
-    const order = await this.model.create(obj);
-    return {
-      id: order._id.toString(),
-      userId: order.userId,
-      total: order.total,
-      created: order.created,
-      send: order.send ? "Yes" : "No",
-    };
-  }*/
-/*
-  async deleteById(id) {
-    await this.model.deleteOne({ _id: id });
-  }*/
-/*
-  async getById(id) {
-    const order = await this.model.findById(id).lean();
-    return {
-      id: order._id.toString(),
-      userId: order.userId,
-      total: order.total,
-      created: order.created,
-      send: order.send ? "Yes" : "No",
-    };
-  }*/
-/*
-  async getByUser(id) {
-    const order = await this.model.findOne({ userId: id }).lean();
-
-    if (!order) {
-      return {};
-    }
-
-    return {
-      id: order._id.toString(),
-      userId: order.userId,
-      total: order.total,
-      created: order.created,
-      send: order.send ? "Yes" : "No",
-    };
-  }*/
   async updateSendOrder(id, send) {
     const order = await this.model.findById(id);
 

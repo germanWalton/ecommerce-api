@@ -17,29 +17,8 @@ class Cart extends BaseModel {
       userId:String,
     })
 
-    // this.model = mongoose.model("carts", schema);
     super('carts',schema)
   }
-/*
-  async getAll() { 
-    const data = await this.model.find({})
-      .lean()
-    
-    return data.map((cart) => ({
-      id: cart._id.toString(),
-      userId: cart.userId,
-      products: cart.products
-    }))
-  }*/
-/*
-  async create(product) {
-    const cart = await this.model.create(product);
-    return {
-      id: cart.id,
-      userId: cart.userId,
-      products:cart.products
-    }
-  }*/
 
   async addToCart(cartId, productId) {
     const product = await Product.getById(productId);
@@ -53,18 +32,6 @@ class Cart extends BaseModel {
     return cartProducts.products;
   }
 
-/*
-  async getCartById(id) {
-    const cart = await this.model.findById(id);
-    console.log(cart)
-    return cart
-  }*/
- 
-/*
-  async deleteById(id) {
-   await this.model.findByIdAndDelete(id) 
-   }
-  */
   
   async deleteCartProductById(cartId, cod_prod) {
     
@@ -94,11 +61,7 @@ class Cart extends BaseModel {
 
     await cart.create()
   }
-  /*
-  async update(id, obj) {
-    const product = await this.model.updateOne({ _id: id }, { $set: obj })
-    return product
-  }*/
+
   
 }
 

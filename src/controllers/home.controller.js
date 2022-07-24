@@ -8,7 +8,7 @@ const root = async (req, res) => {
   const { name, _id } = req.user;
   const products = await service.getProducts();
   const cart = await service.getCartByUser(_id);
-  console.log(_id)
+  // console.log(req.session.passport.user)
   res.render("main", { name, products, cartId: cart._id });
 };
 

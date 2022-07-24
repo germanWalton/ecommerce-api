@@ -22,13 +22,15 @@
   const MongoStore = require("connect-mongo");
   const config = require("./config");
   // routers
-  const homeRouter = require("./routes/home.route");
-  const cartRouter = require("./routes/cart.route");
-  const productRouter = require("./routes/products.route");
-  const userRouter = require("./routes/user.route");
-  const adminRouter = require("./routes/admin.route");
-  const notificationRouter = require("./routes/notifications.route");
-  const infoRouter = require("./routes/info.router.js")
+  const homeRouter = require("./routes/home.router");
+  const cartRouter = require("./routes/cart.router");
+  const productRouter = require("./routes/products.router");
+  const userRouter = require("./routes/user.router");
+  const adminRouter = require("./routes/admin.router");
+  const infoRouter = require("./routes/info.router")
+  const orderRouter = require("./routes/order.router")
+  const messageRouter = require("./routes/message.router")
+  
   // passport
   const passport = require("passport");
   const flash = require("express-flash");
@@ -37,8 +39,7 @@
   //log4js
   const logger = require("./log/index");
 
-  // const PORT = args.port;
-  const PORT = process.env.PORT || 8080;
+   const PORT = args.port;
 
   const { HOSTNAME, SCHEMA, DATABASE, USER, PASSWORD, OPTIONS } =
     config.mongoConfig;
@@ -114,7 +115,9 @@
   app.use("/api/cart", compression(), cartRouter);
   app.use("/api/products", compression(), productRouter);
   app.use("/api/user", compression(), userRouter);
-  app.use("/api/sms", compression(), notificationRouter);
+  app.use("/api/messages", compression(), messageRouter)
+  app.use("/api/orders",compression(),orderRouter)
+
 
   //log4js
   app.get("*", (req, res) => {
@@ -144,12 +147,9 @@
     });
   });
 
-  server.listen(PORT, () =>
-  logger.info(`worker with pid ${process.pid} listening on https://localhost:${PORT}`)
-
-);
-  // module.exports = {
-  //   app,
-  //   server,
-  // };
+ 
+   module.exports = {
+     app,
+     server,
+   };
 })();

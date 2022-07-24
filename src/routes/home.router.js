@@ -1,9 +1,9 @@
 const Router = require("express").Router;
-const auth = require("../middlewares/auth.middleware");
+const login = require("../middlewares/login.middleware");
 const router = Router();
 const controller = require("../controllers/home.controller");
 
-router.get("/", auth, controller.root);
+router.get("/", login, controller.root);
 
 router.get("/login", controller.loginForm);
 
@@ -13,11 +13,11 @@ router.post("/login", controller.login);
 
 router.post("/register", controller.register);
 
-router.get("/logout", auth, controller.logout);
+router.get("/logout", login, controller.logout);
 
-router.get("/cart", auth, controller.cart);
+router.get("/cart", login, controller.cart);
 
-router.get("/order", auth, controller.order);
+router.get("/order", login, controller.order);
 
 
 module.exports = router;

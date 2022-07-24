@@ -2,15 +2,17 @@ const express = require("express");
 const { Router } = express;
 const router = Router();
 const controller = require("../controllers/user.controller");
-const auth = require("../middlewares/auth.middleware");
+const login = require("../middlewares/login.middleware");
+const isAdmin = require("../middlewares/admin.middleware");
 
+router.use(login);
 
-router.get("/", controller.root);
+router.get("/", isAdmin, controller.root);
 
 router.get("/current", controller.currentUser);
 
 router.get("/:id", controller.userById);
 
-router.delete("/:id",controller.deleteById)
+router.delete("/:id", isAdmin, controller.deleteById);
 
 module.exports = router;

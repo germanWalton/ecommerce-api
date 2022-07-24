@@ -22,9 +22,9 @@ try {
 
   }
   else {
-    // server.listen(PORT, () =>
-    //   logger.info(`worker with pid ${process.pid} listening on https://localhost:${PORT}`)
+    server.listen(PORT, () =>
+      logger.info(`worker with pid ${process.pid} listening on https://localhost:${PORT}`)
  
-    // );
+    );
   }
 } catch(e){logger.error(e)}

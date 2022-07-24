@@ -2,7 +2,9 @@ const express = require("express");
 const { Router } = express;
 const router = Router();
 const controller = require("../controllers/cart.controller");
-const auth = require("../middlewares/auth.middleware")
+const login = require("../middlewares/login.middleware")
+
+router.use(login)
 
 router.get("/", controller.getAllCarts);
 

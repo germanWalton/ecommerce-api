@@ -22,9 +22,7 @@ class Message extends BaseModel {
     super("messages", schema);
   }
 
-  async saveMessage(message) {
-    await this.model.create(message);
-  }
+ 
 
   async readMessages() {
     const author = new schema.Entity("authors", {}, { idAttribute: "email" });
