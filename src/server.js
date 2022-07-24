@@ -37,7 +37,8 @@
   //log4js
   const logger = require("./log/index");
 
-  const PORT = args.port;
+  // const PORT = args.port;
+  const PORT = process.env.PORT || 8080;
 
   const { HOSTNAME, SCHEMA, DATABASE, USER, PASSWORD, OPTIONS } =
     config.mongoConfig;
