@@ -143,8 +143,12 @@
     });
   });
 
-  module.exports = {
-    app,
-    server,
-  };
+  server.listen(PORT, () =>
+  logger.info(`worker with pid ${process.pid} listening on https://localhost:${PORT}`)
+
+);
+  // module.exports = {
+  //   app,
+  //   server,
+  // };
 })();
